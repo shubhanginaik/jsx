@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#NOTES
+React: Library that defines what a component is and how multiple components work together.
+ReactDOM: Library that knows how to get a component to show up in the browser.
+
+#Converting HTML to JSX
+
+1. All prop names follow camelCase
+2. Number attributes use curly braces
+3. boolean 'true' can be written with just the property name . 'False' should be wrotten with the curly braces.
+4. The 'class' attribute is written as 'className'
+5. In-line styles provided as objects.
