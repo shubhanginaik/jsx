@@ -1,4 +1,4 @@
-function ProfileCard({ title, handle, imageSrc }) {
+function ProfileCard({ title, handle, imageSrc, description }) {
   //const { title, handle } = props;
   return (
     <div className="card">
@@ -12,6 +12,7 @@ function ProfileCard({ title, handle, imageSrc }) {
           <p className="title is-4">{title}</p>
           <p className="title is-6">{handle}</p>
         </div>
+        <div className="content">{description}</div>
       </div>
     </div>
   );
